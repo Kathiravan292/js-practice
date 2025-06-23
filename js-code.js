@@ -10,3 +10,9 @@ document.write(code)
 let codefee
 codefee=2000;
 console.log(codefee)
+
+
+// const key word
+
+const mode="online or offline"
+console.log(mode)
