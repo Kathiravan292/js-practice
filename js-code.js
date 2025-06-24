@@ -38,3 +38,10 @@ console.log(typeof courcemode);
 // undefine
 let courcecompleat;
 console.log(courcecompleat);
+
+// null
+
+let iscourceempty=null;
+console.log(iscourceempty);
+console.log(typeof iscourceempty);
+
