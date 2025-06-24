@@ -35,3 +35,6 @@ console.log(courcemode);
 console.log(typeof courcemode);
 
 
+// undefine
+let courcecompleat;
+console.log(courcecompleat);
