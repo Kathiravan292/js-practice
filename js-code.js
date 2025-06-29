@@ -45,3 +45,15 @@ let iscourceempty=null;
 console.log(iscourceempty);
 console.log(typeof iscourceempty);
 
+// /////////////////////////////////type converstion/////////////////////////////
+
+let numericnumber='2025';
+console.log(numericnumber);
+
+let res= Number(numericnumber)
+console.log(res);
+
+
+
+
+
