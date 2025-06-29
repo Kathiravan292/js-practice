@@ -61,6 +61,16 @@ console.log(str);
 let srtres= String(str);
 console.log(srtres);
 
+// /////////////////////////////boolean////////////////////////////////////////
+ console.log(Boolean(''));
+ console.log(Boolean('0'));
+ console.log(Boolean(undefined));
+ console.log(Boolean(null));
+ 
+ 
+ 
+ 
+
 
 
 
