@@ -53,6 +53,14 @@ console.log(numericnumber);
 let res= Number(numericnumber)
 console.log(res);
 
+// ////////////////////////////////number to string ///////////////////////////////
+
+let str = 2025;
+console.log(str);
+
+let srtres= String(str);
+console.log(srtres);
+
 
 
 
