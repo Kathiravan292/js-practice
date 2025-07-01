@@ -66,7 +66,30 @@ console.log(srtres);
  console.log(Boolean('0'));
  console.log(Boolean(undefined));
  console.log(Boolean(null));
+
+//  /////////////// statement ////////////////////////
+ let age =10;
+
+ if( age >=89){
+    console.log("hello");  
+ }else if(age >=20 && age <=60){
+    console.log( "hai");
+    
+      
+ }else{
+    console.log("byee");
+    
+ }
+//  //////////////////
+ for(let i=1;i<=5;i++){
+   if(i==4){
+      continue
+   }
+   console.log("hello java  ",i);
+}
+    
  
+  
  
  
  
