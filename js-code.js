@@ -81,15 +81,36 @@ console.log(srtres);
     
  }
 //  //////////////////
- for(let i=1;i<=5;i++){
-   if(i==4){
-      continue
-   }
-   console.log("hello java  ",i);
-}
+//  for(let i=1;i<=5;i++){
+//    if(i==4){
+//       continue
+//    }
+//    console.log("hello java  ",i);
+// }
     
+
+for( let w=5;w>=1;w--){
+   console.log(w);
+   
+} 
+// /////////////////////////string methode////////////////////
+
+let stry="UI developer";
+console.log(stry);
+console.log(stry.indexOf("e"));
+console.log(stry.lastIndexOf("e"));
+console.log(stry.charAt(3));
+console.log(stry.charCodeAt("v"));
+console.log(stry.substring(3,7));
+
+
+
+
+
  
-  
+
+
+
  
  
  
