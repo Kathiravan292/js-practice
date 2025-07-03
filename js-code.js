@@ -109,6 +109,22 @@ let detail=['kathiravan','erumapatti','front end developere'];
 console.log(detail);
 console.log(typeof detail);
 
+// //////////////////////array method/////////////////////////
+
+detail.push(26);
+console.log(detail);
+detail.pop();
+console.log(detail);
+detail.shift();
+console.log(detail);
+detail.unshift("Nithish");
+console.log(detail);
+console.log(detail.includes(26));
+detail.reverse();
+console.log(detail);
+
+
+
 
 
 
