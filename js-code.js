@@ -103,6 +103,13 @@ console.log(stry.charAt(3));
 console.log(stry.charCodeAt("v"));
 console.log(stry.substring(3,7));
 
+// ///////////////////////array///////////////////////////////
+
+let detail=['kathiravan','erumapatti','front end developere'];
+console.log(detail);
+console.log(typeof detail);
+
+
 
 
 
