@@ -144,11 +144,18 @@ let personaldetail={
 
 // let value= Object.values(personaldetail);
 // console.log(value);
-let free=Object.freeze(personaldetail)
+// let free=Object.freeze(personaldetail)
 
-personaldetail.qulification = "mca";
-personaldetail.firstname="kathiravan";
-console.log(personaldetail);
+// personaldetail.qulification = "mca";
+// personaldetail.firstname="kathiravan";
+// console.log(personaldetail);
+
+let today= new Date();
+console.log(today);
+
+console.log(today.getDate());
+console.log(today.getFullYear());
+
 
 
 
