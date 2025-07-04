@@ -133,8 +133,17 @@ let personaldetail={
 // console.log(personaldetail);
 // console.log(personaldetail.place);
 
-let personobj = personaldetail.hasOwnProperty("firstname") 
-console.log(personobj);
+// let personobj = personaldetail.hasOwnProperty("firstname") 
+// console.log(personobj);
+// ////////// object.keys method/////////////////
+
+let key = Object.keys(personaldetail);
+console.log(key);
+
+// //////////object.value methode////////////
+
+let value= Object.values(personaldetail);
+console.log(value);
 
 
 
