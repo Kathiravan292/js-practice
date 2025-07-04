@@ -137,13 +137,18 @@ let personaldetail={
 // console.log(personobj);
 // ////////// object.keys method/////////////////
 
-let key = Object.keys(personaldetail);
-console.log(key);
+// let key = Object.keys(personaldetail);
+// console.log(key);
 
 // //////////object.value methode////////////
 
-let value= Object.values(personaldetail);
-console.log(value);
+// let value= Object.values(personaldetail);
+// console.log(value);
+let free=Object.freeze(personaldetail)
+
+personaldetail.qulification = "mca";
+personaldetail.firstname="kathiravan";
+console.log(personaldetail);
 
 
 
