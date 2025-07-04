@@ -123,6 +123,16 @@ console.log(detail.includes(26));
 detail.reverse();
 console.log(detail);
 
+// /////////////////////////object///////////////////////////
+
+let personaldetail={
+   firstname:"kathir",
+   lastname:"chndran",
+   place:"namakkal",
+}
+console.log(personaldetail);
+
+
 
 
 
