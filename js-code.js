@@ -130,7 +130,11 @@ let personaldetail={
    lastname:"chndran",
    place:"namakkal",
 }
-console.log(personaldetail);
+// console.log(personaldetail);
+// console.log(personaldetail.place);
+
+let personobj = personaldetail.hasOwnProperty("firstname") 
+console.log(personobj);
 
 
 
