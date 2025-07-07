@@ -176,6 +176,16 @@ add()
  }
  addition(20,20,)
 
+ function login(username,password){
+   if((username=="kathir")&&(password=="1234567")){
+      alert("username is correct");
+   }else{
+      alert("user name is not correct")
+   }
+   }
+   login("dhiva","123")
+ 
+
 
 
 
