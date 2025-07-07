@@ -201,8 +201,25 @@ add()
       
    }
    console.log(addi(10,40));
+
    
- 
+////////////////////////////////////////////////nested function///////////////////////////////////////
+
+function parent(){
+   console.log("hello good morning");
+   let a = 11;
+   let b = 12;
+   let sum =(a,b);
+   console.log(sum);
+   function child(){
+      console.log("good afternoon");
+      
+   }
+   child()
+   
+   
+}
+parent()
 
 
 
