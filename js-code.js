@@ -176,14 +176,32 @@ add()
  }
  addition(20,20,)
 
- function login(username,password){
-   if((username=="kathir")&&(password=="1234567")){
-      alert("username is correct");
-   }else{
-      alert("user name is not correct")
+//  function login(username,password){
+//    if((username=="kathir")&&(password=="1234567")){
+//       alert("username is correct");
+//    }else{
+//       alert("user name is not correct")
+//    }
+//    }
+//    login("dhiva","123")
+   // ///////////////////////////////function with defulate///////////////////////
+
+   function courcefee(amount,discountprice=10){
+      let finaleprice = amount-(amount*discountprice/100);
+      console.log(finaleprice);
+      
    }
+   courcefee(40000)
+
+   ///////////////////////////////////// function with returnn keyword/////////////////////////
+   function addi(a,b){
+      let sum = a+b;
+      console.log(sum);
+      return "hello";
+      
    }
-   login("dhiva","123")
+   console.log(addi(10,40));
+   
  
 
 
