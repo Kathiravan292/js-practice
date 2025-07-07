@@ -168,6 +168,14 @@ function add(){
    
 }
 add()
+//////////////////////////////////////////function with parameter///////////////////////////////
+ function addition(a,b){
+   let sum=a+b;
+   console.log(sum);
+   
+ }
+ addition(20,20,)
+
 
 
 
