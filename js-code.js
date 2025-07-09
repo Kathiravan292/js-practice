@@ -219,9 +219,69 @@ function parent(){
    
    
 }
-parent()
+
+///////////////////////////practice/////////////////////////
+
+// let arr = [5, 1, 9, 3, 7];
+// let max = Math.max(...arr);  //5, 1, 9, 3, 7
+// let min = Math.min(...arr);
+// console.log(arr);
+// console.log(max);
+// console.log(min);
+
+let arr2 = [5, 1, 9, 3, 7];
+
+let min = arr2[0]
+let max = arr2[arr2.length - 1]
+console.log(min, max);
+
+for(let i = 0; i < arr2.length; i++){
+
+   if(min > arr2[i]){  //5 > 3
+      min = arr2[i]
+   }
+   if(max < arr2[i]){ // 7 < 5
+      max = arr2[i]
+   }
+}
+console.log(min, max);
+
+// /////////////////////
+ 
+// let a = prompt("enter a number");
+// if(a%2!==0){
+//    console.log("is not a prime number");
+   
+// }else{
+//    console.log("it is prime number");
+   
+// }
+
+// let m = "kathiravan";
+// for(let i=0;i<=m-1;i++){
+//    console.log(m[i]);
+   
+// }
+
+// console.log("-------------------------");
+
+//  let jka ="kathiravan";  
+//  let kat = jka.split("").reverse().join("")
+//  console.log(kat);
+ 
+
+let add = () =>{
+    let nums1 = 20;
+     let nums2 = 20;
+     let res = nums1 + nums2;
+     console.log(res); 
+     return res
 
 
+}
+ add()
+
+//  ////////////////////////////function expression//////////////////////////
 
 
 
