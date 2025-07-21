@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -49,16 +49,79 @@
 
 
 
-for (let i = 0;i<=5;i++) {
-    console.log([i]);
-}   `
+// for (let i = 0;i<=5;i++) {
+//     console.log([i]);
+// }   `
 
  
- </script>
+//  </script>
 
 
 
 
     
+<!-- </body>
+</html> --> -
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Slider</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    .slider {
+      width: 100%;
+      max-width: 600px;
+      height: 300px;
+      overflow: hidden;
+      margin: 40px auto;
+      border: 4px solid #444;
+      border-radius: 12px;
+    }
+
+    .slider-wrapper {
+      display: flex;
+      width: 400%; /* 4 images */
+      height: 100%;
+      animation: slide 8s infinite;
+    }
+
+    .slide {
+      width: 100%;
+      flex-shrink: 0;
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @keyframes slide {
+      0%   { transform: translateX(0); }
+      25%  { transform: translateX(-100%); }
+      50%  { transform: translateX(-200%); }
+      75%  { transform: translateX(-300%); }
+      100% { transform: translateX(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="slider">
+    <div class="slider-wrapper">
+      <div class="slide"><img src="https://via.placeholder.com/600x300/ff4444/ffffff?text=Image+1" alt="Image 1"></div>
+      <div class="slide"><img src="https://via.placeholder.com/600x300/44ff44/ffffff?text=Image+2" alt="Image 2"></div>
+      <div class="slide"><img src="https://via.placeholder.com/600x300/4444ff/ffffff?text=Image+3" alt="Image 3"></div>
+      <div class="slide"><img src="https://via.placeholder.com/600x300/ffff44/000000?text=Image+4" alt="Image 4"></div>
+    </div>
+  </div>
+
 </body>
 </html>
