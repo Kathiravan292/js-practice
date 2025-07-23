@@ -23,3 +23,12 @@ console.log(names);
 let resElem = names[0];
 console.log(resElem); // 'Surya'
 console.log(names[1]); // Lokesh
+
+// //////////////////////////////
+console.log(`********** With destructuring Array ************`);
+
+let [eleOne,,,eleFour,eleFive] = names;
+
+console.log(eleOne);
+console.log(eleFour);
+console.log(eleFive);
