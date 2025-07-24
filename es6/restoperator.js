@@ -54,8 +54,27 @@ console.log(`********** With call method() ************`);
 
 //  ////////////////////////apply()///////////////////////
 
-console.log(`********** With apply method() ************`);
-let proces={
+// console.log(`********** With apply method() ************`);
+// let proces={
+//     name : "kathir",
+//     age : 21,
+//     place : "nkl",
+// }
+
+// let proces1={
+//     name : "dhiva",
+//     age : 21,
+//     place : 'tri',
+// }
+//  let detail=function (month,year) {
+//     console.log(` and name${this.name} and ${this.age} and${this.place}this is my month ${month} and this is${year}`);
+    
+//  }
+//  let vari = detail.call(proces1,[2],[2005]);
+ 
+ console.log(`********** With bind method() ************`);
+
+ let proces={
     name : "kathir",
     age : 21,
     place : "nkl",
@@ -71,4 +90,3 @@ let proces1={
     
  }
  let vari = detail.call(proces1,[2],[2005]);
- vari
