@@ -5,8 +5,8 @@
 // console.log(eleTwo);
 // console.log(others);
 
-// function user(userOne, userTwo, ...restPara) {
-//     console.log(userOne);
+// function user(userone, userTwo, ...restPara) {
+//     console.log(userone);
 //     console.log(userTwo);
 //     console.log(restPara);
 
