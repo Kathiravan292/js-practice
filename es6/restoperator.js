@@ -17,7 +17,7 @@
 // gexample:
 
 // let names = ['Surya','Lokesh','harshith','Gayathri','Sandeep'];
-// console.log(names);
+// console.log(name);
 
 // // Older way of extracting all the values from an array / Without destructurig:
 // let resElem = names[0];
@@ -41,7 +41,7 @@ console.log(`********** With call method() ************`);
 //     place : "nkl",
 // }
 
-// let proces1={
+// let proces3={
 //     name : "dhiva",
 //     age : 21,
 //     place : 'tri',
