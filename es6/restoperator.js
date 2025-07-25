@@ -11,7 +11,7 @@
 //     console.log(restPara);
 
 // }
-// user('Adhithya', 'Jaswanth', 'Venkat', 'Pavan', 'Chakri', 'Kadhir')
+// user('hari', 'Jaswanth', 'Venkat', 'Pavan', 'Chakri', 'Kadhir')
 
 // // //////////////////////////////////
 // gexample:
