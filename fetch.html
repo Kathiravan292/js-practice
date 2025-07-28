@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetch</title>
+</head>
+<body>
+    <script>
+        fetch('https://hp-api.onrender.com/api/characters')
+        .then((res) => res.json())
+        .then(user =>{
+                let dat=user[0]
+                console.log(`the name is ${dat.name} and ${dat.alternate_names}`);
+                
+            })
+        .catch(
+            err => console.log("Error poda:",err) 
+        );
+
+
+        // let busticket = new Promise((res, rej) =>{
+        //     let isbook = false;
+        //     if(isbook){
+        //         res("the ticket is booked")
+        //     }
+        //     else{
+        //         rej("the ticket id not booked")
+        //     }
+
+        // })
+        // busticket
+        // .then((mes) => console.log((mes))
+        // )
+        // .catch((err) => console.log((err))
+        // )
+    </script>
+    
+</body>
+</html>
