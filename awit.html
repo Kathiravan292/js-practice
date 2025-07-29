@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>await</title>
+</head>
+<body>
+    <script>
+        function order() {
+            return new Promise((res,rej)=>{
+
+                setTimeout(() => {
+                    res("macha")                
+                },4000);
+            })
+        }
+        async function neworder() {
+            console.log("hai");
+            let onother = await order()
+            console.log(onother);
+            console.log("whate are you doing")    
+            
+        }
+        neworder()
+    </script>
+    
+</body>
+</html>
